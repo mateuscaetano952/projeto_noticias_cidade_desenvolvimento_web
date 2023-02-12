@@ -1,0 +1,199 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+#container{
+    width: 720px;
+    margin: 0 auto;
+}   
+
+/*Formatações genericas*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Topo*/
+.topo{
+    width: 100%;
+    height: 200px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.topo h1{
+    background: url(./imagens/logo.png) no-repeat;
+    height: 100px;
+    text-indent: -3000px;
+    margin-top: 10px;
+}
+
+.topo ul{
+    list-style: none;
+    float:left;
+    margin-left: 15px;
+    background: rgb(179, 2, 38);
+}
+
+.topo ul li{
+    float: left;
+}
+
+.topo li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 12px;
+    background: url(./imagens/divisor.png) no-repeat right center;
+}
+
+.topo li a:hover{
+    background: crimson;
+}
+
+.topo #home .home,
+.topo #brasil .brasil
+{
+    background: crimson;
+} 
+/*Fim formataçções topo*/
+
+/*Conteudo*/
+.conteudo{
+    margin-top: 50px;
+    float: left;
+}
+
+/*3 colunas*/
+.coluna3 .conteudo-primario{
+    float: left;
+    width: 277px;
+    margin: 0 0 20px 150px;
+}
+
+/*2 colunas*/
+.coluna2 .conteudo-primario{
+    float: left;
+    width: 555px;
+    margin: 0 0 20px 150px;
+}
+
+.conteudo-secundario{
+    float: left;
+    width: 277px;
+    margin: 0 0 20px 10px;
+   
+    
+}
+
+.conteudo-lateral{
+    float: left;
+    width: 150px;
+    margin: 0 0 20px -720px;
+
+    
+}
+
+.caixa{
+    background: #f3f3f3 url(./imagens/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.caixa h2{
+    background: #294c71;
+    color: #fff;
+}
+
+/*Menu horizontal*/
+.caixa ul{
+    list-style: none;
+    padding: 5px;
+}
+
+.caixa ul a{
+    text-decoration: none;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
+    color: black;
+}
+
+.conteudo-lateral ul a:hover{
+    background: url(imagens/marcador.png) no-repeat left;
+    color: #555252;
+    padding-left: 20px;
+}
+
+/*Cadastar email*/
+form{
+    margin-top: 7px;
+}
+
+.email-input{
+    width: 120px;
+    height: 24px;
+}
+
+.submit-input{
+    width: 80px;
+    background:rgb(179, 2, 38);
+    color: #fff;
+    padding: 7px;
+}
+
+/*Conteudo primario e secundario*/
+.caixa h3{
+    margin-top: 8px;
+    background:rgb(179, 2, 38);
+    color: #fff;
+    display: inline-block;
+    
+}
+
+.caixa a{
+    color: rgb(179, 2, 38);
+    text-decoration: underline;
+}
+
+/*Caixa noticias*/
+.noticias img{
+    float: left;
+    padding: 3px;
+}
+
+.noticias h3{
+    padding: 0px;
+    margin: 0px;
+    background: none;
+    color: rgb(33, 106, 241);
+    font-size: 0.9em;
+}
+
+.noticias p{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+}
+
+/*Rodape*/
+.container-rodape{
+    background: #294c71;
+    height: 55px;
+    
+}
+
+.rodape{
+    color: #fff;
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
