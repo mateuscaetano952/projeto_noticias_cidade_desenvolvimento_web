@@ -142,6 +142,7 @@ form{
 .email-input{
     width: 120px;
     height: 24px;
+    border-top: 2px solid rgb(84, 82, 82);
 }
 
 .submit-input{
@@ -149,6 +150,7 @@ form{
     background:rgb(179, 2, 38);
     color: #fff;
     padding: 7px;
+    font-size: 0.9em;
 }
 
 /*Conteudo primario e secundario*/
@@ -162,7 +164,7 @@ form{
 }
 
 .caixa a{
-    color: rgb(179, 2, 38);
+    color: rgb(199, 10, 48);
     text-decoration: underline;
 }
 
