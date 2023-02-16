@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    width: 720px;
+    width: 750px;
     margin: 0 auto;
 }   
 
@@ -33,14 +33,13 @@ ul{
     background: url(./imagens/logo.png) no-repeat;
     height: 100px;
     text-indent: -3000px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .topo ul{
     list-style: none;
     float:left;
-    margin-left: 15px;
-    background: rgb(179, 2, 38);
+    background: rgb(199, 10, 48);
 }
 
 .topo ul li{
@@ -51,12 +50,13 @@ ul{
     text-decoration: none;
     color: #fff;
     display: block;
-    padding: 12px;
+    padding: 12px 20px;
     background: url(./imagens/divisor.png) no-repeat right center;
+    font-size: 0.9em;
 }
 
 .topo li a:hover{
-    background: crimson;
+    color: rgb(56, 2, 11);
 }
 
 .topo #home .home,
