@@ -1,3 +1,4 @@
+/*Formatações gerais*/
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 0px;
@@ -68,44 +69,40 @@ ul{
 
 /*Conteudo*/
 .conteudo{
-    margin-top: 30px;
     float: left;
     border: 1px solid red;
 }
 
 /*3 colunas*/
 .coluna3 .conteudo-primario{
-    float: left;
-    width: 277px;
-    margin: 0 0 20px 150px;
+    float: right;
+    width: 270px;
+    margin-left: 5px;
+    margin-right: 0px;
 }
 
 /*2 colunas*/
 .coluna2 .conteudo-primario{
-    float: left;
+    float: right;
     width: 555px;
     margin: 0 0 20px 150px;
 }
 
 .conteudo-secundario{
-    float: left;
-    width: 277px;
-    margin: 0 0 20px 10px;
-   
-    
+    float: right;
+    width: 270px;
 }
 
 .conteudo-lateral{
     float: left;
-    width: 150px;
-    margin: 0 0 20px -720px;
-
+    width: 200px;
     
 }
 
 .caixa{
     background: #f3f3f3 url(./imagens/fundo-caixa.png);
     padding: 5px;
+    margin: 0px;
     margin-bottom: 5px;
 }
 
