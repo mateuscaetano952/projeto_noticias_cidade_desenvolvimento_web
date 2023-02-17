@@ -14,7 +14,6 @@ body{
     margin: 0 auto;
 }   
 
-/*Formatações genericas*/
 a{
     text-decoration: none;
 }
@@ -29,14 +28,14 @@ ul{
     height: 200px;
     background: url(imagens/detalhe-topo.png) no-repeat right top;
 }
-
+    /*Topo logo*/
 .topo h1{
     background: url(./imagens/logo.png) no-repeat;
     height: 100px;
     text-indent: -3000px;
     margin-top: 20px;
 }
-
+    /*topo menu*/
 .topo ul{
     list-style: none;
     float:left;
@@ -82,9 +81,8 @@ ul{
 
 /*2 colunas*/
 .coluna2 .conteudo-primario{
-    float: right;
-    width: 555px;
-    margin: 0 0 20px 150px;
+    float:right ;
+    width: 520px;
 }
 
 .conteudo-secundario{
@@ -114,6 +112,7 @@ ul{
 
 .conteudo-notciais-pequenas{
     border-bottom: 1px solid rgba(0, 0, 0, 0.196);
+    
 }
 
 .conteudo-notciais-pequenas:hover{
@@ -208,4 +207,16 @@ form{
     width: 720px;
     margin: 0 auto;
     padding-top: 18px;
+}
+
+.conteudo-notciais2{
+    height: 80px;
+}
+
+.leia-mais{
+    cursor: pointer;
+}
+
+.leia-mais:hover{
+    color:rgb(223, 53, 87)
 }
